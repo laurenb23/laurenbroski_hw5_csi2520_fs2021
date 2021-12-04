@@ -25,7 +25,7 @@ app.get('/my_blog', function(req, res) {
 });
 
 app.get('/my_funfacts', function(req, res) {
-    res.render('../views/my_fundacts.ejs');
+    res.render('../views/my_funfacts.ejs');
 });
 
 app.get('/trivia', function(req, res) {
