@@ -19,14 +19,9 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         color: #f0a04b;
-        float: right;
+        background-color: darkgreen;
+        float: left;
         position: absolute;
-        margin-left: 60%;
-        top: 80px;
-    }
-    
-    #trivia_content {
-        color: aquamarine;
         margin-left: 10px;
         padding: 5px;
         border: 10px;
