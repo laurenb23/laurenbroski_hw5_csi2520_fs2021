@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('/my_resume', function(req, res) {
-    res.render('./views/my_resume.ejs');
+    res.render('../views/my_resume.ejs');
 });
 
 app.get('/my_blog', function(req, res) {
