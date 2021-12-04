@@ -31,6 +31,20 @@ app.get('/my_funfacts', function(req, res) {
 app.get('/trivia', function(req, res) {
     res.render('../views/trivia.ejs');
 });
+/// 
+
+app.post("/answerQ1", (req, res) => {
+    let cAnswer1 = "A";
+    let q1Answer = req.body.inputQ1;
+    if (q1Answer === cAnswer1) {
+        res.send("Correct!");
+        counter++;
+    } else {
+        res.send("Incorrect");
+    }
+    console.log(q1Answer);
+    console.log(counter);
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
