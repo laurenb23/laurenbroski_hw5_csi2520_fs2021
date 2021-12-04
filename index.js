@@ -1,7 +1,7 @@
 const express = require("express");
 const ejs = require("ejs");
 
-const app = express();
+const app = new express();
 
 //Body parser middleware
 app.use(express.json());
