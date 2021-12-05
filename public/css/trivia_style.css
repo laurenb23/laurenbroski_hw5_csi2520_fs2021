@@ -20,12 +20,12 @@
         font-size: 15px;
         float: left;
         margin-left: 10px;
+        position: relative;
         display: block;
         color: #fafafa;
         background-color: #183a1d;
         border-style: solid;
         border-radius: 10%;
-        border: 20px;
         margin: 7px;
         padding: 5px;
     }
