@@ -125,9 +125,11 @@ h3 {
     color: #e1eedd;
     background-color: #f0a04b;
     width: 60%;
-    position: absolute;
+    display: inline-block;
     margin-left: 10px;
-    float: 20%;
+    padding: 10px;
+    margin-top: 225px;
+    border-radius: 5px;
 }
 
 #HTML_table_table1 {
