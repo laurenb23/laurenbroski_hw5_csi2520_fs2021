@@ -12,6 +12,11 @@
         float: right;
     }
     
+    main {
+        background-color: #fefbe9;
+        clear: both;
+    }
+    
     a:hover {
         color: rgb(0, 0, 0);
         background-color: #e1eedd;
@@ -31,7 +36,7 @@
     }
     
     h3 {
-        color: #fafafa;
+        color: #183a1d;
         background-color: #e1eedd;
         width: 25%;
     }
