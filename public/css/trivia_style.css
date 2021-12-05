@@ -18,12 +18,14 @@
     h3 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        color: #f0a04b;
-        background-color: darkgreen;
         float: left;
         position: absolute;
         margin-left: 10px;
-        padding: 10px;
-        border: 10px;
         display: grid;
+        color: #fafafa;
+        background-color: #183a1d;
+        border-style: solid;
+        border-radius: 10%;
+        margin: 5px;
+        padding: 7px;
     }
