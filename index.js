@@ -101,7 +101,7 @@ app.post("/answerQ5", (req, res) => {
 });
 
 app.post("/totalpoints", (req, res) => {
-    res.send("Total Points: ");
+    res.send("Total Points: " + score);
 });
 
 const PORT = process.env.PORT || 3000;
