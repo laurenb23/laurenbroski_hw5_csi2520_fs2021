@@ -125,7 +125,8 @@ h3 {
     color: #e1eedd;
     background-color: #f0a04b;
     width: 60%;
-    position: relative;
+    position: absolute;
+    margin-left: 10px;
 }
 
 #HTML_table_table1 {
