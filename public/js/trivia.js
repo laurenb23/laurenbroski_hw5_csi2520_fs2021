@@ -64,3 +64,7 @@ app.post("/answerQ5", (req, res) => {
     console.log(q5Answer);
     console.log(score);
 });
+
+app.post("/totalpoints", (req, res) => {
+    res.send("Total Points: " + score);
+});
