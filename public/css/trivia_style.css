@@ -21,7 +21,7 @@
         float: left;
         position: relative;
         margin-left: 10px;
-        display: inline-block;
+        display: inline-flex;
         color: #fafafa;
         background-color: #183a1d;
         border-style: solid;
